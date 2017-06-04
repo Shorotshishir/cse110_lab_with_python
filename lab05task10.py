@@ -5,6 +5,7 @@ end = 600
 start = 0
 total = 0
 
+
 for i in range(0, 600):
     if (i % 7 == 0) & (i % 9 == 0):
         total = total + i
